@@ -15,7 +15,7 @@ import joblib
 import warnings
 warnings.filterwarnings('ignore')
 
-PCA_DATA_PATH = "/content/drive/MyDrive/MyProject/pca_analysis/transformed_features.csv"
+PCA_DATA_PATH = "/content/pca_analysis/transformed_features.csv"
 SVM_OUTPUT_ROOT = "/content/svm_binary_tumor_classification"
 os.makedirs(SVM_OUTPUT_ROOT, exist_ok=True)
 

@@ -13,9 +13,9 @@ from scipy import stats
 from pathlib import Path
 
 # -------- PATHS --------
-SEGMENTED_ROOT = "/content/drive/MyDrive/segment_data/kmeans_segmented"           
-ORIGINAL_ROOT = "/content/drive/MyDrive/preprocessed_anisotropic"   
-ENHANCED_ROOT = "/content/drive/MyDrive/wavelet_enhanced"        
+SEGMENTED_ROOT = "/content/kmeans_segmented"           
+ORIGINAL_ROOT = "/content/preprocessed_anisotropic"   
+ENHANCED_ROOT = "/content/wavelet_enhanced"        
 FEATURES_ROOT = "/content/features_complete"       
 
 os.makedirs(FEATURES_ROOT, exist_ok=True)
